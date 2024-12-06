@@ -15,7 +15,7 @@ const ProductDetails: React.FC = () => {
 
   return (
     <div>
-      <button onClick={() => navigate('/products')}>Back</button>
+      <button onClick={() => navigate('/')}>Back</button>
       <img src={product.image} alt={product.title} />
       <h1>{product.title}</h1>
       <p>{product.description}</p>
