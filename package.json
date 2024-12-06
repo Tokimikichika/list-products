@@ -1,6 +1,6 @@
 {
   "name": "my-product-app",
-  "homepage": "https://Tokimikichika.github.io/list-products",
+  "homepage": "https://tokimikichika.github.io/products",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
