@@ -81,7 +81,7 @@ const ProductList: React.FC = () => {
             product={product}
             onLike={() => toggleLike(product.id)}
             onDelete={() => removeProduct(product.id)}
-            onViewDetails={() => navigate(`/${product.id}`)}
+            onViewDetails={() => navigate(`/products/${product.id}`)}
           />
         ))}
       </div>
