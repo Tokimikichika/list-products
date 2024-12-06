@@ -6,7 +6,7 @@ import CreateProductPage from './pages/CreateProductPage';
 
 const App: React.FC = () => {
   return (
-    <Router basename="/products">
+    <Router>
       <Routes>
       <Route path="/" element={<Navigate to="/products" replace />} />
         <Route path="/products" element={<ProductsPage />} />
