@@ -7,7 +7,7 @@ const Header: React.FC = () => {
     <header className={styles.header}>
       <h1>Product Store</h1>
       <nav>
-        <Link to="/">Products</Link>
+        <Link to="/products">Products</Link>
         <Link to="/create-product">Create Product</Link>
       </nav>
     </header>
